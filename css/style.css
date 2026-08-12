@@ -595,7 +595,7 @@ h3 {
     gap: 40px;
     max-width: 600px;
     margin: 32px auto 0;
-      }
+}
 
 .qr-grid .contact-qr {
     margin-top: 0;
@@ -607,5 +607,5 @@ h3 {
     .qr-grid {
         grid-template-columns: 1fr;
         gap: 24px;
-   }
+    }
 }
