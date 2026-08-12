@@ -589,50 +589,5 @@ h3 {
             
     }
 
-  /* =========================================
-   QR CODE TWO-COLUMN LAYOUT
-   ========================================= */
 
-.qr-grid {
-display: flex !important;
-flex-direction: row !important;
-justify-content: center !important;
-align-items: flex-start !important;
-gap: 40px !important;
-width: 100% !important;
-max-width: 650px !important;
-margin: 32px auto 0 !important;
-background: yellow !important;
-}
 
-.qr-grid .contact-qr {
-    flex: 0 1 280px !important;
-    width: 280px !important;
-    margin: 0 !important;
-    padding-top: 24px !important;
-    text-align: center !important;
-}
-
-.qr-grid .contact-qr img {
-    display: block !important;
-    width: 120px !important;
-    height: 120px !important;
-    max-width: 120px !important;
-    max-height: 120px !important;
-    margin: 0 auto 12px !important;
-}
-
-@media (max-width: 600px) {
-
-    .qr-grid {
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 24px !important;
-    }
-
-    .qr-grid .contact-qr {
-        width: 100% !important;
-        max-width: 280px !important;
-    }
-
-}
