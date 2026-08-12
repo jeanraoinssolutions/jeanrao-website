@@ -594,14 +594,15 @@ h3 {
    ========================================= */
 
 .qr-grid {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: flex-start !important;
-    gap: 40px !important;
-    width: 100% !important;
-    max-width: 650px !important;
-    margin: 32px auto 0 !important;
+display: flex !important;
+flex-direction: row !important;
+justify-content: center !important;
+align-items: flex-start !important;
+gap: 40px !important;
+width: 100% !important;
+max-width: 650px !important;
+margin: 32px auto 0 !important;
+background: yellow !important;
 }
 
 .qr-grid .contact-qr {
