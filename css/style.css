@@ -589,34 +589,49 @@ h3 {
             
     }
 
-   /* ---------- QR Code Layout ---------- */
+  /* =========================================
+   QR CODE TWO-COLUMN LAYOUT
+   ========================================= */
 
 .qr-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 40px;
-    max-width: 600px;
-    margin: 32px auto 0;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 40px !important;
+    width: 100% !important;
+    max-width: 650px !important;
+    margin: 32px auto 0 !important;
 }
 
 .qr-grid .contact-qr {
-    margin-top: 0;
-    padding-top: 24px;
-    text-align: center;
+    flex: 0 1 280px !important;
+    width: 280px !important;
+    margin: 0 !important;
+    padding-top: 24px !important;
+    text-align: center !important;
+}
+
+.qr-grid .contact-qr img {
+    display: block !important;
+    width: 120px !important;
+    height: 120px !important;
+    max-width: 120px !important;
+    max-height: 120px !important;
+    margin: 0 auto 12px !important;
 }
 
 @media (max-width: 600px) {
 
     .qr-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 24px !important;
     }
 
-    .contact-qr img {
-        width: 105px !important;
-        height: 105px !important;
-        max-width: 105px;
-        max-height: 105px;
+    .qr-grid .contact-qr {
+        width: 100% !important;
+        max-width: 280px !important;
     }
 
 }
