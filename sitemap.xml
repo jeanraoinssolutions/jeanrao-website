@@ -85,5 +85,25 @@
 <url>
     <loc>https://jeanrao.com/zh/aca-fpl.html</loc>
 </url>
+    <!-- ACA Plan Levels -->
+
+<url>
+    <loc>https://jeanrao.com/aca-plans.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/zh/aca-plans.html</loc>
+</url>
+
+
+<!-- Common ACA Mistakes -->
+
+<url>
+    <loc>https://jeanrao.com/aca-common-mistakes.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/zh/aca-common-mistakes.html</loc>
+</url>
 
 </urlset>
