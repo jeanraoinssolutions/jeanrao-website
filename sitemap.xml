@@ -41,4 +41,49 @@
     <loc>https://jeanrao.com/zh/health-insurance.html</loc>
     </url>
 
+    <!-- ACA / Obamacare English -->
+
+<url>
+    <loc>https://jeanrao.com/aca.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/aca-open-enrollment.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/aca-special-enrollment.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/aca-income-subsidies.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/aca-fpl.html</loc>
+</url>
+
+
+<!-- ACA / Obamacare Chinese -->
+
+<url>
+    <loc>https://jeanrao.com/zh/aca.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/zh/aca-open-enrollment.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/zh/aca-special-enrollment.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/zh/aca-income-subsidies.html</loc>
+</url>
+
+<url>
+    <loc>https://jeanrao.com/zh/aca-fpl.html</loc>
+</url>
+
 </urlset>
