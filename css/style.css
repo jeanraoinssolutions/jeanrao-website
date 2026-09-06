@@ -405,7 +405,68 @@ h3 {
 .text-link:hover {
     text-decoration: underline;
 }
+/* ---------- Information Tables ---------- */
 
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin: 28px 0 20px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #ffffff;
+    border: 1px solid #dfe5e8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.info-table th,
+.info-table td {
+    padding: 16px 20px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #e5eaed;
+}
+
+.info-table th {
+    background: #eef3f5;
+    color: #37474f;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.info-table td {
+    color: #546e7a;
+    font-size: 0.95rem;
+}
+
+.info-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.info-table td:first-child {
+    font-weight: 600;
+    color: #37474f;
+}
+
+.info-table th:first-child,
+.info-table td:first-child {
+    width: 50%;
+}
+
+.info-table th:last-child,
+.info-table td:last-child {
+    width: 50%;
+}
+
+.small-note {
+    margin-top: 16px;
+    color: #78909c;
+    font-size: 0.82rem;
+}
 
 /* ---------- Bilingual Section ---------- */
 
@@ -705,6 +766,10 @@ h3 {
         max-height: 105px;
             
     }
-
+    .info-table th,
+    .info-table td {
+        padding: 13px 14px;
+        font-size: 0.88rem;
+    }
 
 
