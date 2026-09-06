@@ -163,13 +163,23 @@
 </p>
 
 <p>
-    <a href="tel:+13462220088" class="text-link">
-        Call Me →
-    </a>
+    <a href="tel:+13462220088"
+   class="text-link"
+   onclick="gtag('event', 'contact_phone_click', {
+       'contact_method': 'phone',
+       'page_language': 'en'
+   });">
+    Call Me →
+</a>
     &nbsp;&nbsp;
-    <a href="sms:+13462220088" class="text-link">
-        Text Me →
-    </a>
+    <a href="sms:+13462220088"
+   class="text-link"
+   onclick="gtag('event', 'contact_text_click', {
+       'contact_method': 'text',
+       'page_language': 'en'
+   });">
+    Text Me →
+</a>
 </p>
 
 <p>
@@ -193,9 +203,13 @@
 
 <p>
     <a href="mailto:JeanRaoInsSolutions@gmail.com"
-       class="text-link">
-        Email Me →
-    </a>
+   class="text-link"
+   onclick="gtag('event', 'contact_email_click', {
+       'contact_method': 'email',
+       'page_language': 'en'
+   });">
+    Email Me →
+</a>
 </p>
 
 <p>
