@@ -156,11 +156,21 @@
     </p>
 
     <p>
-        <a href="tel:+13462220088" class="text-link">
+        <a href="tel:+13462220088"
+           class="text-link"
+           onclick="gtag('event', 'contact_phone_click', {
+               'contact_method': 'phone',
+               'page_language': 'zh'
+           });">
             打电话 →
         </a>
         &nbsp;&nbsp;
-        <a href="sms:+13462220088" class="text-link">
+        <a href="sms:+13462220088"
+           class="text-link"
+           onclick="gtag('event', 'contact_text_click', {
+               'contact_method': 'text',
+               'page_language': 'zh'
+           });">
             发短信 →
         </a>
     </p>
@@ -187,9 +197,13 @@
 
     <p>
         <a href="mailto:JeanRaoInsSolutions@gmail.com"
-           class="text-link">
-            发送邮件 →
-        </a>
+   class="text-link"
+   onclick="gtag('event', 'contact_email_click', {
+       'contact_method': 'email',
+       'page_language': 'zh'
+   });">
+    发送邮件 →
+</a>
     </p>
 
     <p>
@@ -464,13 +478,22 @@
 
             <div class="hero-buttons">
 
-               <a href="tel:+13462220088" class="button">
+               <a href="tel:+13462220088"
+               class="button"
+               onclick="gtag('event', 'contact_phone_click', {
+               'contact_method': 'phone',
+               'page_language': 'zh'
+               });">
                 给我打电话
                 </a>
 
                 <a href="mailto:JeanRaoInsSolutions@gmail.com"
-                   class="button button-light">
-                    发送邮件
+               class="button button-light"
+               onclick="gtag('event', 'contact_email_click', {
+               'contact_method': 'email',
+               'page_language': 'zh'
+                   });">
+                发送邮件
                 </a>
 
             </div>
