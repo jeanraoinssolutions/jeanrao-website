@@ -332,6 +332,11 @@ h3 {
     font-size: 0.75rem !important;
 }
 
+.medicare-note {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #666;
+}
 @media (max-width: 700px) {
 
     .featured-health-container {
